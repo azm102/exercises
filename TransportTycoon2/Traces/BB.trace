@@ -1,0 +1,83 @@
+{
+ "displayTimeUnit": "ms", 
+ "traceEvents": [
+  {
+   "name": "FACTORY-B", 
+   "tid": "Truck:0", 
+   "ph": "B", 
+   "args": {
+    "cargo": [
+     "CARGO:FACTORY_B_0"
+    ], 
+    "transport": "Truck:0"
+   }, 
+   "pid": "Truck:0", 
+   "ts": 0, 
+   "cat": "ddd"
+  }, 
+  {
+   "name": "FACTORY-B", 
+   "tid": "Truck:1", 
+   "ph": "B", 
+   "args": {
+    "cargo": [
+     "CARGO:FACTORY_B_1"
+    ], 
+    "transport": "Truck:1"
+   }, 
+   "pid": "Truck:1", 
+   "ts": 0, 
+   "cat": "ddd"
+  }, 
+  {
+   "tid": "Truck:0", 
+   "ph": "E", 
+   "args": {
+    "cargo": [
+     "CARGO:FACTORY_B_0"
+    ], 
+    "transport": "Truck:0"
+   }, 
+   "pid": "Truck:0", 
+   "ts": 5, 
+   "cat": "ddd"
+  }, 
+  {
+   "name": "B-FACTORY", 
+   "tid": "Truck:0", 
+   "ph": "B", 
+   "args": {
+    "cargo": [], 
+    "transport": "Truck:0"
+   }, 
+   "pid": "Truck:0", 
+   "ts": 5, 
+   "cat": "ddd"
+  }, 
+  {
+   "tid": "Truck:1", 
+   "ph": "E", 
+   "args": {
+    "cargo": [
+     "CARGO:FACTORY_B_1"
+    ], 
+    "transport": "Truck:1"
+   }, 
+   "pid": "Truck:1", 
+   "ts": 5, 
+   "cat": "ddd"
+  }, 
+  {
+   "name": "B-FACTORY", 
+   "tid": "Truck:1", 
+   "ph": "B", 
+   "args": {
+    "cargo": [], 
+    "transport": "Truck:1"
+   }, 
+   "pid": "Truck:1", 
+   "ts": 5, 
+   "cat": "ddd"
+  }
+ ]
+}
